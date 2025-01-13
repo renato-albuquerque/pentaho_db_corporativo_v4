@@ -16,8 +16,11 @@ Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 
 ## Execução da sequência de STEPS no Pentaho
 
-### Step: CSV file input. Importar arquivo csv (06 colunas).
+### `Step: CSV file input.` Importar arquivo csv (06 colunas).
 ![screenshot](/images/importar_csv.png) <br>
 
-### Step: String operations. 
-
+### `Step: String operations.` <br> 
+Alterando o nome das colunas: bairro -> bairros / nomemunicipio -> cidade / uf -> estado.
+`Trim type: both` para todas as colunas.
+`Lower/Upper: upper` para todas as colunas.  
+![screenshot](/images/string_operations.png) <br>
