@@ -8,7 +8,7 @@ Curso: Data Analytics (Turma 18) <br>
 Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 
 ## Etapas de Desenvolvimento (Summary)
-1. Entendimento do projeto. "Popular tabelas no banco de dados no PostgreSQL (bd corporativo_v4)".
+1. Entendimento do projeto. "Popular tabelas no banco de dados no PostgreSQL `(bd corporativo_v4)`".
 2. Conectar o Pentaho com o PostgreSQL.
 3. Importar arquivos `csv` no Pentaho.
 4. Desenvolver fluxos para tratamento dos dados no Pentaho (Transformações, ktr's).
@@ -29,3 +29,7 @@ Alterando o nome das colunas: bairro -> bairros / nomemunicipio -> cidade / uf -
 ### `Step: Get system info.` 
 Obter informações detalhadas sobre o sistema em que a transformação está sendo executada. Obter a data e hora atual do sistema.<br>
 ![screenshot](/images/get_system_info.png) <br>
+
+### `Step: Select values.` 
+modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Neste projeto será removido 3 colunas (bairro, nomemunicipio, uf).<br>
+![screenshot](/images/select_values1.png) <br>
