@@ -25,3 +25,7 @@ Alterando o nome das colunas: bairro -> bairros / nomemunicipio -> cidade / uf -
 `Trim type: both` para todas as colunas. <br>
 `Lower/Upper: upper` para todas as colunas. <br> 
 ![screenshot](/images/string_operations.png) <br>
+
+### `Step: Get system info.` 
+Obter informações detalhadas sobre o sistema em que a transformação está sendo executada. Obter a data e hora atual do sistema.<br>
+![screenshot](/images/get_system_info.png) <br>
