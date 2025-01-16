@@ -31,5 +31,6 @@ Obter informações detalhadas sobre o sistema em que a transformação está se
 ![screenshot](/images/get_system_info.png) <br>
 
 ### `Step: Select values.` 
-modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Neste projeto será removido 3 colunas (bairro, nomemunicipio, uf).<br>
+Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Neste projeto será removido 3 colunas (bairro, nomemunicipio, uf).<br>
 ![screenshot](/images/select_values1.png) <br>
+
