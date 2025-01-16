@@ -73,3 +73,6 @@ Escreve os dados processados diretamente em uma tabela de banco de dados (bd cor
 ### `Pentaho Pipeline até o momento.` 
 Popular a tabela pessoa, bd corporativo_v4, schema geral.<br>
 ![screenshot](/images/pentaho_pipeline_1.png) <br>
+
+### `Dados inseridos na tabela pessoa (PostgreSQL).` 
+![screenshot](/images/table_pessoa_data_insert.png) <br>
