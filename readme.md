@@ -30,7 +30,26 @@ Alterando o nome das colunas: bairro -> bairros / nomemunicipio -> cidade / uf -
 Obter informações detalhadas sobre o sistema em que a transformação está sendo executada. Obter a data e hora atual do sistema.<br>
 ![screenshot](/images/get_system_info.png) <br>
 
-### `Step: Select values.` 
-Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Neste projeto será removido 3 colunas (bairro, nomemunicipio, uf).<br>
+### `Step: Select values (1).` 
+Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Nesta etapa será removido 3 colunas (bairro, nomemunicipio, uf).<br>
 ![screenshot](/images/select_values1.png) <br>
+
+### `Step: Database lookup (1).` 
+Pesquisar informações adicionais em um banco de dados (bd corporativo_v4, schema geral, tabela estado) e adicionar essas informações ao fluxo de dados em tempo real.<br>
+![screenshot](/images/database_lookup_estado.png) <br>
+
+### `Step: Database lookup (2).` 
+Pesquisar informações adicionais em um banco de dados (bd corporativo_v4, schema geral, tabela cidade) e adicionar essas informações ao fluxo de dados em tempo real.<br>
+![screenshot](/images/database_lookup_cidade.png) <br>
+
+### `Step: Filter rows (1).` 
+Filtrar os dados que estão sendo processados, com base em uma condição (id_cidade IS NOT NULL). <br>
+![screenshot](/images/filter_rows_1.png) <br>
+
+### `Step: Dummy do nothing (1).` 
+Ponto de interrupção para verificar o fluxo de dados nesta etapas, sem realizar nenhuma transformação.<br>
+
+### `Step: Select values (2).` 
+Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Nesta etapa está recebendo as informações filtradas do step: Filter rows (1), id_cidade IS NOT NULL.<br>
+![screenshot](/images/select_values_2.png) <br>
 
