@@ -53,3 +53,19 @@ Ponto de interrupção para verificar o fluxo de dados nesta etapas, sem realiza
 Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Nesta etapa está recebendo as informações filtradas do step: Filter rows (1), id_cidade IS NOT NULL.<br>
 ![screenshot](/images/select_values_2.png) <br>
 
+### `Step: Database lookup (3).` 
+Pesquisar informações adicionais em um banco de dados (bd corporativo_v4, schema geral, tabela bairro) e adicionar essas informações ao fluxo de dados em tempo real.<br>
+![screenshot](/images/database_lookup_bairro.png) <br>
+
+### `Step: Filter rows (2).` 
+Filtrar os dados que estão sendo processados, com base em uma condição (id_bairro IS NOT NULL). <br>
+![screenshot](/images/filter_rows_2.png) <br>
+
+### `Step: Select values (3).` 
+Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Nesta etapa está recebendo as informações filtradas do step: Filter rows (2), id_bairro IS NOT NULL.<br>
+![screenshot](/images/select_values_3.png) <br>
+
+### `Step: Table output.` 
+Escreve os dados processados diretamente em uma tabela de banco de dados (bd corporativo_v4, schema geral, tabela pessoa).<br>
+![screenshot](/images/table_output_pessoa_1.png)
+![screenshot](/images/table_output_pessoa_2.png) <br>
