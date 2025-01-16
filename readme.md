@@ -14,6 +14,15 @@ Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 4. Desenvolver fluxos para tratamento dos dados no Pentaho (Transformações, ktr's).
 5. Dados inseridos nas tabelas do PostgreSQL. <br>
 
+## Resultados do Projeto (Pipeline & Informações inseridas no BD)
+
+### `Pentaho Pipeline até o momento.` 
+Popular a tabela pessoa, bd corporativo_v4, schema geral.<br>
+![screenshot](/images/pentaho_pipeline_1.png) <br>
+
+### `Dados inseridos na tabela pessoa (PostgreSQL).` 
+![screenshot](/images/table_pessoa_data_insert.png) <br>
+
 ## Execução da sequência de STEPS no Pentaho
 
 ### `Step: CSV file input.` 
@@ -70,9 +79,3 @@ Escreve os dados processados diretamente em uma tabela de banco de dados (bd cor
 ![screenshot](/images/table_output_pessoa_1.png)
 ![screenshot](/images/table_output_pessoa_2.png) <br>
 
-### `Pentaho Pipeline até o momento.` 
-Popular a tabela pessoa, bd corporativo_v4, schema geral.<br>
-![screenshot](/images/pentaho_pipeline_1.png) <br>
-
-### `Dados inseridos na tabela pessoa (PostgreSQL).` 
-![screenshot](/images/table_pessoa_data_insert.png) <br>
