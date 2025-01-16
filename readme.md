@@ -69,3 +69,7 @@ Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os cam
 Escreve os dados processados diretamente em uma tabela de banco de dados (bd corporativo_v4, schema geral, tabela pessoa).<br>
 ![screenshot](/images/table_output_pessoa_1.png)
 ![screenshot](/images/table_output_pessoa_2.png) <br>
+
+### `Pentaho Pipeline até o momento.` 
+Popular a tabela pessoa, bd corporativo_v4, schema geral.<br>
+![screenshot](/images/pentaho_pipeline_1.png) <br>
