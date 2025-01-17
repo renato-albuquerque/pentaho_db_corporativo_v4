@@ -56,7 +56,7 @@ Filtrar os dados que estão sendo processados, com base em uma condição (id_ci
 ![screenshot](/images/filter_rows_1.png) <br>
 
 ### `Step: Dummy do nothing (1).` 
-Ponto de interrupção para verificar o fluxo de dados nesta etapas, sem realizar nenhuma transformação.<br>
+Ponto de teste (Depuração), para verificar o fluxo de dados, mesmo que o fluxo não esteja finalizado, sem realizar nenhuma transformação.<br>
 
 ### `Step: Select values (2).` 
 Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Nesta etapa está recebendo as informações filtradas do step: Filter rows (1), id_cidade IS NOT NULL.<br>
@@ -70,6 +70,9 @@ Pesquisar informações adicionais em um banco de dados (bd corporativo_v4, sche
 Filtrar os dados que estão sendo processados, com base em uma condição (id_bairro IS NOT NULL). <br>
 ![screenshot](/images/filter_rows_2.png) <br>
 
+### `Step: Dummy do nothing (2).` 
+Ponto de teste (Depuração), para verificar o fluxo de dados, mesmo que o fluxo não esteja finalizado, sem realizar nenhuma transformação.<br>
+
 ### `Step: Select values (3).` 
 Modificar os dados de um fluxo, permitindo renomear, remover ou reordenar os campos (colunas). Nesta etapa está recebendo as informações filtradas do step: Filter rows (2), id_bairro IS NOT NULL.<br>
 ![screenshot](/images/select_values_3.png) <br>
@@ -79,3 +82,8 @@ Escreve os dados processados diretamente em uma tabela de banco de dados (bd cor
 ![screenshot](/images/table_output_pessoa_1.png)
 ![screenshot](/images/table_output_pessoa_2.png) <br>
 
+## Meus Contatos
+
+- Linkedin - [renato-malbuquerque](https://www.linkedin.com/in/renato-malbuquerque/)
+- Discord - [Renato Albuquerque#0025](https://discordapp.com/users/992621595547938837)
+- Business Card - [Renato Albuquerque](https://rma-contacts.vercel.app/)
